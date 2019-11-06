@@ -46,6 +46,14 @@
   background-position: 100% 0, 0 center, center top;
 }
 
+
+.aboutbox {
+	color: #dcd06f;
+	background: #dcd06f;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 .flexbox_hcenter { 
 	display: flex; 
 	justify-content: center;
@@ -59,14 +67,8 @@
 	font-size: 120%;
 }
 
-.div_about {
-	color: #dcd06f;
-	background: #dcd06f;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
 
-.flexbox_about {
+.flexbox_80p {
 	flex-basis: 80%;
 	height: 100%;
 	text-align: justify;
