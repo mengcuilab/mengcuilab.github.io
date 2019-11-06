@@ -111,7 +111,7 @@ body h1, body h2, body h3, body h4 { font-family: $font-family-headings; color: 
 		display: inline;
 		list-style-type:none;
 		font-family: $font-family-headings; 
-		font-size: 180%;
+		font-size: 120%;
 
 		padding: 10px;
 	}
