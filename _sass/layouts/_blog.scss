@@ -77,6 +77,31 @@
 	line-height: 2.5;
 }
 
+
+.teambox {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  //background: grey;
+}
+
+.flexbox_40p_center {
+  text-align: center;
+  width: 40%;
+}
+
+.flexbox_40p_left {
+  text-align: flex-start;
+  width: 40%;
+}
+
+
+#team_img { background: yellow}
+#team_txt { background: pink}
+
 /* --- Post listing --- */
 .posts {
   .post-teaser {
