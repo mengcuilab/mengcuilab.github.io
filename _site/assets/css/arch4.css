@@ -92,21 +92,21 @@ body h1, body h2, body h3, body h4 { font-family: $font-family-headings; color: 
 	display: flex; 
 	height: 100px; 
 	justify-content: space-between;
-    align-items: center;
+    //align-items: center;
  }
 .flexbox_item: {}
 	.flexbox_item_logo {
 	  height: 3em;
 	  float: left;
-	  margin-top : -15px;
+	  //margin-top : -15px;
 	}
 	.flexbox_item_title {
 	  height: 3em;
-	  float: left;
       font-family: $font-family-headings;
 	  margin-left: 10px;
+	  float: left;
 	}
-	.flexbox_item_menu { margin: 23px 4vw auto auto; }
+	.flexbox_item_menu { margin: auto 2vw auto auto; }
 	.flexbox_item_menu ul {
 		display: inline;
 		list-style-type:none;
