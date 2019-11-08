@@ -46,6 +46,17 @@
   background-position: 100% 0, 0 center, center top;
 }
 
+a {text-decoration: none;}
+a:hover {
+  text-decoration: underline;
+}
+
+
+li { 
+  margin-left: 50px; 
+  margin-bottom: 20px;
+  text-align: left;
+}  
 
 .flexbox_row {
   display: flex;
@@ -88,6 +99,17 @@
 	line-height: 2.5;
 }
 
+.flexbox_70p {
+	flex-basis: 80%;
+	height: 100%;
+	text-align: justify;
+	font-family: Georgia;
+	font-size: 80%;
+	line-height: 2.5;
+}
+
+#pubs {margin-top: 50px;}
+
 .teambox {
   display: flex;
   flex-wrap: nowrap;
@@ -105,6 +127,11 @@
 }
 
 #alumni { background: #dcd06f; } 
+
+.box_70p_left {
+  text-align: flex-start;
+  width: 70%;
+}
 
 .box_40p_left {
   text-align: flex-start;
