@@ -2,14 +2,15 @@
 
 .call-out {
   @extend %padding-header;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
+  //display: inline-block;
+  display: block;
+  //width: 100%;
+  //height: 100%;
   font-size: 1.2em;
   text-align: center;
   color: $header-desc-text-color;
   background: $header-desc-background-color no-repeat;
-  background-size: $feature-image-size;
+  //background-size: $feature-image-size;
   
 
   /* --- Responsive --- */
@@ -43,7 +44,7 @@
 }
 
 #main {
-  background-position: 100% 0, 0 center, center top;
+  background-position: 100% 100%, 0 center, center;
 }
 
 .flexbox_row {
@@ -64,6 +65,38 @@
     align-items: center;
  }
 
+#home-img {
+  	//background: grey;
+	width: 100%;
+	height: 700px;
+}
+
+#about-img {
+	width: 100%;
+	height: 400px;
+}
+#about-img h2 {
+	color: white;
+	font-size: 250%;
+}
+
+#team-img {
+	width: 100%;
+	height: 400px;
+}
+#team-img h2 {
+	color: white;
+	font-size: 250%;
+}
+
+#pubs-img {
+	width: 100%;
+	height: 400px;
+}
+#pubs-img h2 {
+	color: white;
+	font-size: 250%;
+}
 #about_subtitle {
 	height: 120px;	
 	margin-top: 30px; 
