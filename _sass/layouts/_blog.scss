@@ -46,18 +46,6 @@
   background-position: 100% 0, 0 center, center top;
 }
 
-a {text-decoration: none;}
-a:hover {
-  text-decoration: underline;
-}
-
-
-li { 
-  margin-left: 50px; 
-  margin-bottom: 20px;
-  text-align: left;
-}  
-
 .flexbox_row {
   display: flex;
   flex-direction: row;
@@ -109,6 +97,16 @@ li {
 }
 
 #pubs {margin-top: 50px;}
+#pubs li {
+  margin-left: 50px; 
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+#pubs a {text-decoration: none;}
+#pubs a:hover {
+  text-decoration: underline;
+}
 
 .teambox {
   display: flex;
@@ -137,6 +135,10 @@ li {
   text-align: flex-start;
   width: 40%;
 }
+
+#team_bio a { color:#1de2d9; }
+#team_bio p { text-align:justify; }
+
 
 .box_15p_left {
   text-align: flex-start;
