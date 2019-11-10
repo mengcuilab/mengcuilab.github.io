@@ -13,8 +13,7 @@
   }
 }
 
-.site-header {
-  //padding-bottom: 1%;
+.nav-wrapper {
   padding: 1% 2% 1% 2%;
   background: $brand-color;
   display: inline-block;
@@ -99,7 +98,7 @@
 }
 
 @media screen and (max-width: $break) {
-  .site-header {
+  .nav-wrapper {
     img.avatar {
       margin-top: -7px
     }
