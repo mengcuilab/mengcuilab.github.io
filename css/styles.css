@@ -159,7 +159,7 @@ a:hover, ::selection {
 	place-self: start start;
 	margin: 0 auto 0 0;
 	text-align: left;
-	font-size: 120%;
+	font-size: 140%;
 	grid-row:1/2;
 }
 
@@ -167,7 +167,7 @@ a:hover, ::selection {
 	grid-column: 1/-1;
 	grid-row:2/3;
 	text-align: justify;
-	line-height: 1.8;
+	line-height: 1.6;
 	justify-self: start;
 	margin-top: 0;
 	font-size: 130%;
