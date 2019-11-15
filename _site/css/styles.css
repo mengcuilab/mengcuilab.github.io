@@ -220,6 +220,8 @@ a:hover, ::selection {
 	color: #fff; 
 }
 
+.footer p { font-size: 120%; } 
+
 .footer1 { 
 	//justify-self: start;
 	margin: auto 0;
