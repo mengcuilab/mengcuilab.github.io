@@ -195,6 +195,7 @@ a:hover, ::selection {
 	list-style-type: none;
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; 
 	color: #171717;line-height: 1.5;
+	font-size: 130%;
 }
 
 .pubs_wrapper li a:hover { text-decoration: underline; }
