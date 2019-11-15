@@ -1,24 +1,19 @@
 ---
 layout: default
-title: About
 ---
 
 <div class="about">
 
-  <div id="about-img" class="flexbox_hcenter"
-       style="background-image: url('{{ site.header_feature_image | relative_url }}')">
-       <h2> {{ page.title }} </h2>
+  <div class="headimg_wrapper"
+	 style="background-image: url('{{ site.header_feature_image | relative_url }}')">
+	
   </div>
 
-  <div class="flexbox_col">
-
-	<div id="about_subtitle" class="box_100p">
-	  <h3> Lab of Integrated Imaging System </h3>
-	</div>
-
-	<div class="flexbox_hcenter">
-	  <h4 class="flexbox_80p">
-		For a long time, the advancements of computing and acquisition 
+  <div class="main_wrapper">
+	<div class="about_wrapper">
+	  <div> <h1> Lab of Integrated Imaging System <h1></div> 
+	  <div> 
+		<h4> For a long time, the advancements of computing and acquisition 
 		hardware and algorithm have driven the transformative progress of 
 		imaging technology. Take bioimaging as an example, the maturation 
 		of low-noise high-QE scientific cameras and the wide availability 
@@ -36,6 +31,6 @@ title: About
 		effectively instead of merely producing large amount of data. </h4>
 	  </div>
 
+	</div>
   </div>
 </div>
-

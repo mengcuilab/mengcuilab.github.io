@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <body>
+	
+	{% include head.html %}
+
+	<nav class="nav_wrapper">
+	  <div class="nav_logotitleicon"> 
+		<div class="nav_logo"> logo </div>
+		<div class="nav_title"> <h2> Cui Research Group </h2></div>
+	  	<div class="nav_icon"> <i class="fas fa-align-justify fa-lg"></i></div>
+
+	  </div>
+	  <ul class="nav_items"> 
+		<li> About </li> 
+		<li> Team </li> 
+		<li> Publications </li> 
+		<li> Photo </li>
+		<li> test </li>
+	  </ul>
+	</nav>
+
+
+	<div class="headimg_wrapper">
+	 img
+	</div>
+
+	<div class="main_wrapper">
+		<div class="wrapper">
+			<div class="team_img"> photos </div>
+			<div class="team_bio"> 
+				<p> bios  </p> 
+				<div class="team_contacts"> 
+					<i class="fas fa-envelope fa-lg"></i>
+
+					<i class="fab fa-google fa-lg"></i></i>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<p class="footer1"> © 2019 All rights reserved by Cui Research Group.</p>
+		<div>  </div>
+		<div class="footer2"> 
+			<p>Bindley Bioscience Center </p>
+			<p>1203 W. State St. </p>
+			<p>West Lafayette, IN 47907 </p>
+		</div>
+	</footer>
+
+  </body>
+</html>

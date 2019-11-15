@@ -1,19 +1,23 @@
-<nav class="nav-wrapper">
-	<div class="header_area flexbox_container">
-		<a href="/">
-			<div class="logo_area flexbox_item flexbox_item_logo">
-				<img src="{{ site.avatar | relative_url }}" /></div>
-			<div class="title_area flexbox_item flexbox_item_title">
-				<h2> {{ site.title }} </h2>
-			</div> 
-		</a>
-
-		<div class="menu_area flexbox_item flexbox_item_menu">
-			<a href="/about.html"><ul>About</ul></a>
-			<a href="/team.html"><ul>Team</ul></a>
-			<a href="/photo/"><ul>Photo</ul></a>
-			<a href="/projects/"><ul>Projects</ul></a>
-			<a href="/publications.html"><ul>Publications</ul></a>
-		</div>
+<nav class="nav_wrapper">
+  <div class="nav_logotitleicon"> 
+	
+	<div class="nav_logo"> 
+		<img src="{{ site.avatar | relative_url }}" />
 	</div>
+	<div class="nav_title"> 
+		<a href="/"><h2> {{ site.title}} </h2> </a>
+	</div>
+		
+	<div class="nav_icon"> <i class="fas fa-align-justify fa-lg"></i></div>
+
+  </div>
+
+  <div class="nav_items"> 
+	<a href="/about.html"><ul> About </ul> </a>
+	<a href="/team.html"><ul> Team </ul> </a>
+	<a href="/publications.html"><ul> Pubulcations </ul> </a>
+	<!--<ul> Photo </ul>
+	<ul> test </ul>-->
+  </div>
 </nav>
+
