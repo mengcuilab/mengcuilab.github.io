@@ -56,6 +56,7 @@ a:hover, ::selection {
 	justify-self: start;
 	margin: auto 0;
 	padding-left: 2%;
+	font-size: 120%;
 }
 .nav_title a { text-decoration: none;}
 
@@ -75,7 +76,7 @@ a:hover, ::selection {
 	padding: 20px 20px;
 	font-size:140%;
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; 
-	font-size: 120%;
+	font-size: 150%;
 
 	padding: 10px;
 }
@@ -124,7 +125,7 @@ a:hover, ::selection {
 /* Team */
 
 #team { 
-	grid-template-columns: 15% 70% auto; 
+	grid-template-columns: 10% 80% auto; 
 }
 
 .team_wrapper {
