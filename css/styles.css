@@ -125,7 +125,7 @@ a:hover, ::selection {
 /* Team */
 
 #team { 
-	grid-template-columns: 10% 80% auto; 
+	grid-template-columns: 8% 80% auto; 
 }
 
 .team_wrapper {
