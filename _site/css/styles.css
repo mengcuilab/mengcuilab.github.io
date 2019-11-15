@@ -86,7 +86,7 @@ a:hover, ::selection {
 }
 
 .headimg_wrapper {
-	height: 600px;
+	height: 500px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	//background-color: gray;
@@ -134,7 +134,7 @@ a:hover, ::selection {
 	margin: 3% auto;
 	display: grid;
 	grid-template-columns: 30% auto;
-	grid-gap: 2%;
+	grid-gap: 1%;
 }
 
 .team_wrapper a { color:#1de2d9; }
