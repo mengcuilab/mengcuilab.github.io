@@ -125,16 +125,16 @@ a:hover, ::selection {
 /* Team */
 
 #team { 
-	grid-template-columns: 8% 80% auto; 
+	grid-template-columns: 5% 85% auto; 
 }
 
 .team_wrapper {
 	min-height: 350px;;
 	grid-column: 2/3; 
-	margin: 3% auto;
 	display: grid;
 	grid-template-columns: 30% auto;
 	grid-gap: 1%;
+	margin: 10px 0;
 }
 
 .team_wrapper a { color:#1de2d9; }
@@ -267,7 +267,7 @@ a:hover, ::selection {
 		grid-column: 1/-1;
 		justify-items: start;
 		margin: 0 auto;
-		margin-top: -5%;
+		margin-top: -2%;
 		text-align: center;
 	}
 
@@ -279,6 +279,7 @@ a:hover, ::selection {
 		grid-gap: 3%;
 		grid-template-columns: 25% auto;
 		mean-height: 350px;
+		margin: 4% auto;
 	}
 
 	.team_img img{
@@ -287,7 +288,7 @@ a:hover, ::selection {
 	}
 
 	.team_bio {
-		grid-template-columns: 28% 50% auto;
+		grid-template-columns: 45% 50% auto;
 		grid-template-rows: 15% auto;
 	}
 
@@ -317,6 +318,7 @@ a:hover, ::selection {
 		justify-self: center;
 		align-self: center;
 		padding-top: 6%;
+		font-size: 110%;
 	}
 
 	.nav_icon {
