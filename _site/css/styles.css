@@ -48,7 +48,7 @@ a:hover, ::selection {
 	margin: auto 0; 
 	justify-self: center;
 }
-.nav_logo img { width: 100%; height: auto; }
+.nav_logo img { max-width: 100px; height: auto; }
 
 .nav_title { 
 	grid-column: 2/3;
