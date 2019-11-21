@@ -298,8 +298,11 @@ a:hover, ::selection {
 	text-align: center;
 }
 
-.proj_txt h4 { 
+.proj_txt p { 
   	line-height: 1.8;
+	color: #171717;
+	line-height: 1.5;
+	font-size: 130%;
 }
 
 /* Publication */
@@ -314,7 +317,8 @@ a:hover, ::selection {
 	text-align: justify;
 	list-style-type: none;
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; 
-	color: #171717;line-height: 1.5;
+	color: #171717;
+	line-height: 1.5;
 	font-size: 130%;
 }
 
@@ -386,7 +390,7 @@ a:hover, ::selection {
 
 	.nav_title { 
 	  	place-self: start start; 
-		grid-column: 2/-1;
+		grid-column: -2/-1;
 	}
 
 	.nav_title h2 { 
