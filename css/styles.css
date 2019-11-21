@@ -364,29 +364,29 @@ a:hover, ::selection {
 
 @media screen and (max-width: 1050px){
 	.nav_wrapper {
-		grid-template-columns: 30% auto;
-		grid-template-rows: 1fr 1fr;
+		grid-template-rows: 80% auto;
 		min-height: 150px;
 		margin: 0 auto;
 		padding: 0 auto;
 	}
 
 	.nav_logotitleicon {
-		grid-column: 1/-1;
 		grid-row: 1/2;
-		grid-template-columns: 22% auto;
-		justify-items: start;
+		grid-column: 1/-1;
+		grid-template-columns: 40% auto;
 	}
 
 	.nav_logo { 
 		margin: auto 0; 
 		padding: 0 0 0 10%;
 		justify-self: center;
+		grid-column: 1/2;
 	}
 	.nav_logo img { width: 120%; height: auto; }
 
 	.nav_title { 
-	  	align-self: start; 
+	  	place-self: start start; 
+		grid-column: 2/-1;
 	}
 
 	.nav_title h2 { 
@@ -394,10 +394,9 @@ a:hover, ::selection {
 	}
 	  
 	.nav_items {
-		grid-column: 2/-1;
-		grid-row: 2/3;
+		grid-row: 2/-1;
 		margin: auto 0;
-		margin-top: -5%;
+		margin-top: -8%;
 	}
 
 	.headimg_wrapper {
