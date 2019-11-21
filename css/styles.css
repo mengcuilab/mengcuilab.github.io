@@ -2,7 +2,6 @@ html { margin: 0; padding: 0; }
 body { margin: 0; padding: 0; width: 100%; height: 100%; background-color: white; }
 //  
 body h1, body h2, body h3, body h4 { font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; color: #171717; }
-//body p {font-family: 'Georgia'; }
 
 /*LINK STYLING*/
 /* unvisited link */
@@ -365,7 +364,8 @@ a:hover, ::selection {
 
 @media screen and (max-width: 1050px){
 	.nav_wrapper {
-		grid-template-columns: repeat(3,1fr);
+		grid-template-columns: 30% auto;
+		grid-template-rows: 1fr 1fr;
 		min-height: 150px;
 		margin: 0 auto;
 		padding: 0 auto;
@@ -373,8 +373,8 @@ a:hover, ::selection {
 
 	.nav_logotitleicon {
 		grid-column: 1/-1;
+		grid-row: 1/2;
 		grid-template-columns: 22% auto;
-		//background-color: lemonchiffon;
 		justify-items: start;
 	}
 
@@ -385,17 +385,19 @@ a:hover, ::selection {
 	}
 	.nav_logo img { width: 120%; height: auto; }
 
-	.nav_title { align-self: start;}
+	.nav_title { 
+	  	align-self: start; 
+	}
 
 	.nav_title h2 { 
 		margin: -12% 0 auto 10%; 
 	}
 	  
 	.nav_items {
-		grid-column: 1/-1;
+		grid-column: 2/-1;
+		grid-row: 2/3;
 		margin: auto 0;
 		margin-top: -5%;
-		margin-bottom: 0;
 	}
 
 	.headimg_wrapper {
