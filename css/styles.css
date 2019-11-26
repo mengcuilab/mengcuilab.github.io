@@ -612,15 +612,12 @@ a:hover, ::selection {
 		height: auto;
 	}
 
-	.proj_txt h2 { 
+	.proj_txt p { 
 	  	font-size: 105%;
 		line-height: 1.5;
+		margin-bottom: 0;
 	}
 
-	.proj_txt h4 { 
-	  	font-size: 90%;
-	}
-		
 	.pubs_wrapper li {
 		margin-bottom: 6%;
 		text-align: left;
