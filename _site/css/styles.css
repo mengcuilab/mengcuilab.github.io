@@ -72,6 +72,8 @@ a:hover, ::selection {
 	margin: auto 2% auto auto; 
 }
 
+.nav_main {}
+
 .nav_wrapper ul {
 	display: inline;
 	list-style-type: none;
@@ -553,11 +555,20 @@ a:hover, ::selection {
 
 	}
 
+	.nav_wrapper { min-height: 30px; }
+
 	.nav_wrapper ul {
 		display: block;
 		margin: 0 auto;
 	}
 
+	.mobile-show { 
+	  	display: block;
+	}
+
+	.mobile-hide { 
+	  	display: none;
+	}
 	.headimg_wrapper {
 		height: 200px;
 		margin-top: 5%;
