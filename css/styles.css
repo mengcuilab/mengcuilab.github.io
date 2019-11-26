@@ -611,21 +611,20 @@ a:hover, ::selection {
 	  	display: block;	
 		grid-template-rows: 1fr;
 		grid-gap: 0;
-		margin: auto 0;
+		margin: 20px 0;
 	}
 
 	.proj_img img { 
 	  	grid-row: 1/-1;
 		width: 100%;
 		height: auto;
-		margin-bottom: 20px;
 	}
 
 	.proj_txt { grid-row: 1/-1; }
 
 	.proj_txt h2 { 
 	  	font-size: 100%;
-		margin: 20px auto;
+		margin: 5px auto;
 	}
 
 	.proj_txt p { 
