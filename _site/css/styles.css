@@ -608,7 +608,7 @@ a:hover, ::selection {
 	}  
 
 	.proj_wrapper {
-		grid-template-rows: 20% auto;
+		grid-template-rows: 25% auto;
 		grid-gap: 0;
 		margin: auto 0;
 	}
