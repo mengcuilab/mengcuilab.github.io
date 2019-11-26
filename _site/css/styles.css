@@ -128,7 +128,7 @@ a:hover, ::selection {
 /* Team */
 
 #team { 
-	grid-template-columns: 1% auto 1%;
+	grid-template-columns: 2% auto 5%;
 	margin: 0 auto;
 }
 
@@ -169,10 +169,15 @@ a:hover, ::selection {
 	font-family: Helvetica;
 }
 	
-
 .team_wrapper a { 
 	//color:#1de2d9; 
 	color: dimgray;
+	font-weight:bold;
+}
+
+.team_wrapper a:hover { 
+	//color:#1de2d9; 
+	color: #dcd06f;
 }
 
 .team_img { 
@@ -188,7 +193,7 @@ a:hover, ::selection {
 	grid-column: 2/3;
 	line-height: 1.8; 
 	display: grid;
-	grid-template-columns: 38% 48% auto;
+	grid-template-columns: 35% 48% auto;
 	grid-template-rows: 15% auto;
 }
 	
@@ -441,6 +446,8 @@ a:hover, ::selection {
 		margin-top: 20px;
 		padding: 0 10px;
 	}
+
+	.team_bio p { line-height: 1.4; }
 
 	#alumni_list {
 		margin: 0 auto;
