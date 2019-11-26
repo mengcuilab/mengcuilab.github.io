@@ -633,6 +633,9 @@ a:hover, ::selection {
 		margin-bottom: 0;
 	}
 
+
+	#pubs { grid-template-columns: 12% 80% auto; }
+
 	.pubs_wrapper li {
 		margin-bottom: 12%;
 		text-align: left;
