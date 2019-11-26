@@ -608,7 +608,7 @@ a:hover, ::selection {
 	}  
 
 	.proj_wrapper {
-		grid-template-rows: 25% auto;
+		grid-template-rows: 20% auto;
 		grid-gap: 0;
 		margin: auto 0;
 	}
@@ -616,10 +616,16 @@ a:hover, ::selection {
 	.proj_img img { 
 		width: 100%;
 		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.proj_txt h2 { 
+	  	font-size: 100%;
+		margin: 20px auto;
 	}
 
 	.proj_txt p { 
-	  	font-size: 105%;
+	  	font-size: 100%;
 		line-height: 1.3;
 		margin-bottom: 0;
 	}
