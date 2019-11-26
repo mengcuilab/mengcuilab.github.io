@@ -608,16 +608,20 @@ a:hover, ::selection {
 	}  
 
 	.proj_wrapper {
-		grid-template-rows: 25% auto;
+	  	display: block;	
+		grid-template-rows: 1fr;
 		grid-gap: 0;
 		margin: auto 0;
 	}
 
 	.proj_img img { 
+	  	grid-row: 1/-1;
 		width: 100%;
 		height: auto;
 		margin-bottom: 20px;
 	}
+
+	.proj_txt { grid-row: 1/-1; }
 
 	.proj_txt h2 { 
 	  	font-size: 100%;
