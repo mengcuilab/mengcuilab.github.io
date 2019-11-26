@@ -92,6 +92,16 @@ a:hover, ::selection {
 	margin: 0 auto;
 	margin-bottom: 20px;
 	//background-color: gray;
+	display: grid;
+	align-content: flex-end;
+	background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.01));
+	font-family: Helvetica;
+
+}
+.headimg_wrapper h2 {
+  	text-align: center;
+	color: #171717;
+	font-size: 30px;
 }
 
 .main_wrapper {
@@ -165,8 +175,9 @@ a:hover, ::selection {
 	grid-template-columns: 40% auto;
 	//background-color: aqua;
 	grid-gap: 40px;
-	margin-top: 40px;
+	margin: 10px 0;
 	font-family: Helvetica;
+	padding: 10px 20px;
 }
 	
 .team_wrapper a { 
@@ -369,6 +380,12 @@ a:hover, ::selection {
 .footer2 p { margin: 5px;}
 
 
+.headimg_wrapper, .team_wrapper, .proj_img > div {
+	box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
+
+
+
 /* TABLET MEDIA QUERY */
 
 @media screen and (max-width: 1050px){
@@ -545,6 +562,7 @@ a:hover, ::selection {
 		height: 200px;
 		margin-top: 5%;
 		margin-bottom: 5%;
+		background-size: cover;
 	}
 
 	.about_wrapper h1 { 
