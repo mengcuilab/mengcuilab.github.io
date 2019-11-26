@@ -441,7 +441,7 @@ a:hover, ::selection {
 		grid-column: 1/-1;
 	  	grid-row: 1/-1;
 		grid-template-columns: 35% 50% auto;
-		grid-template-rows: 10% auto;
+		grid-template-rows: 50px auto;
 		margin: auto 0;
 		margin-top: 20px;
 		padding: 0 10px;
