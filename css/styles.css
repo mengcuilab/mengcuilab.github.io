@@ -382,11 +382,14 @@ a:hover, ::selection {
 .footer2 p { margin: 5px;}
 
 
-.headimg_wrapper, .team_wrapper, .proj_img > div {
-	box-shadow: 0 0 3px rgba(0,0,0,.1);
+.team_wrapper, .proj_wrapper > div {
+	//box-shadow: 0 4px 2px -2px gray;
+	box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
 }
 
-
+.headimg_wrapper > div {
+	box-shadow: 0 0 3px rgba(0,0,0,.1);
+}
 
 /* TABLET MEDIA QUERY */
 
