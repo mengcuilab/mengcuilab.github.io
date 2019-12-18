@@ -95,14 +95,16 @@ a:hover, ::selection {
 	margin-bottom: 20px;
 	//background-color: gray;
 	display: grid;
-	align-content: flex-end;
+	//align-content: flex-end;
+	align-content: flex-start;
 	background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.01));
 	font-family: Helvetica;
 
 }
 .headimg_wrapper h2 {
   	text-align: center;
-	color: #171717;
+	//color: #171717;
+	color: white;
 	font-size: 30px;
 }
 
