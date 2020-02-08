@@ -273,12 +273,23 @@ a:hover, ::selection {
 .news_txt h2 { 
 	margin: auto 0; 
   	font-size: 140%;
+	line-height: 1.8;
+ }
+
+
+.news_txt h3 { 
+	margin: auto 0; 
+  	font-size: 120%;
+	//line-height: 1.2;
+	margin-bottom: 15px;
+
  }
 
 .news_txt h4 { 
-  	text-align: justify;
+  	text-align: left;
 	font-size: 110%;
 	margin-top: 10px;
+	//line-height: 1.8;
 }
 
 
